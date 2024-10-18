@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Application Form</h2>
+        <p class="note">Form is to be completed at least 21 days prior to date.</p>
+        
+        <form>
+            <div class="section personal-details">
+                <h3>Personal Details</h3>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date of Proposed Outing:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <label><input type="checkbox" name="gender" value="male"> Male</label>
+                    <label><input type="checkbox" name="gender" value="female"> Female</label>
+                </div>
+            </div>
+
+            <div class="section checkbox-statements">
+                <h3>Checkbox Statements (Check all that apply)</h3>
+                <label><input type="checkbox" name="tattoos"> I have tattoos and/or piercings</label><br>
+                <label><input type="checkbox" name="age_difference"> I am more than 2 years older than my daughter</label><br>
+                <label><input type="checkbox" name="vehicle"> I own a panel van or V8 ute</label><br>
+                <label><input type="checkbox" name="full_time"> I work full time</label><br>
+                <label><input type="checkbox" name="rich_parents"> My parents are rich</label><br>
+                <label><input type="checkbox" name="well_lit"> I will meet at a well-lit public location</label>
+            </div>
+
+            <div class="section political-education">
+                <h3>Political Persuasion & Education Level</h3>
+                <div class="form-group">
+                    <label for="political">Political Persuasion:</label>
+                    <select id="political" name="political">
+                        <option value="left-wing">Left Wing</option>
+                        <option value="right-wing">Right Wing</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="education">Education Level Completed:</label>
+                    <select id="education" name="education">
+                        <option value="university">University</option>
+                        <option value="college">College</option>
+                        <option value="high-school">High School</option>
+                        <option value="none">None</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="section references">
+                <h3>References</h3>
+                <div class="form-group">
+                    <label for="reference1">Reference 1 Name:</label>
+                    <input type="text" id="reference1" name="reference1" required>
+                    <label for="ref_phone1">Reference 1 Phone:</label>
+                    <input type="tel" id="ref_phone1" name="ref_phone1" required>
+                </div>
+                <div class="form-group">
+                    <label for="reference2">Reference 2 Name:</label>
+                    <input type="text" id="reference2" name
